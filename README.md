@@ -74,6 +74,9 @@ Publish the website in the given URL.
 
 ## OUTPUT
 ![Screenshot 2025-05-20 205247](https://github.com/user-attachments/assets/f28b7f95-8b8e-4532-ad82-db303430ee4e)
+![Screenshot 2025-05-20 234945](https://github.com/user-attachments/assets/198a63cf-3d97-4b69-b0c8-3b67f40a4c35)
+![Screenshot 2025-05-20 234956](https://github.com/user-attachments/assets/47d4132f-f036-43b9-ad54-6ce14b283f42)
+
 
 
 ## RESULT
