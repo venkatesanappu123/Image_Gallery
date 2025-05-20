@@ -1,5 +1,5 @@
 # Ex.08 Design of Interactive Image Gallery
-
+## DATE : 19/05/2025
 ## AIM
   To design a web application for an inteactive image gallery with minimum five images.
 
@@ -30,9 +30,50 @@ Validate the HTML and CSS code
 Publish the website in the given URL.
 
 ## PROGRAM
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MyGallery</h1>
+    </header>
+    <main class="gallery">
+        <img src="1.webp" alt="Image 1" class="gallery-image">
+        <img src="2.webp" alt="Image 2" class="gallery-image">
+        <img src="3.webp" alt="Image 3" class="gallery-image">
+        <img src="4.jpg" alt="Image 4" class="gallery-image">
+        <img src="5.jpg" alt="Image 5" class="gallery-image">
+        <img src="6.jpg" alt="Image 6" class="gallery-image">
+    </main>
 
+    <div class="lightbox" id="lightbox">
+        <div class="pos">
+            <button id="cb" class="close">x</button>
+        </div>
+        <img src="" alt="Expanded View" id="lightboxImg">
+        <div class="position">
+            <button id="prevBtn" class="nav-button">&lt;</button>
+            <button id="nextBtn" class="nav-button">&gt;</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Designed & Developed by<br>VENKATESAN-R </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+```
 
 ## OUTPUT
+![Screenshot 2025-05-20 205247](https://github.com/user-attachments/assets/f28b7f95-8b8e-4532-ad82-db303430ee4e)
 
 
 ## RESULT
